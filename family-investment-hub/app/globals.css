@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", Arial, sans-serif;
+}
+
+body {
+  background: #F7F5EF;
+  color: #0F1A2B;
+}
+
+.card {
+  @apply bg-white rounded-2xl border border-black/5 shadow-card;
+}
+
+.badge {
+  @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold;
+}
+.badge-good { @apply bg-good/10 text-good; }
+.badge-warn { @apply bg-warn/10 text-warn; }
+.badge-bad { @apply bg-bad/10 text-bad; }
+.badge-neutral { @apply bg-black/5 text-ink/60; }
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition;
+}
+.btn-primary { @apply bg-brand-500 text-white hover:bg-brand-600; }
+.btn-secondary { @apply bg-white border border-black/10 text-ink hover:bg-black/[0.03]; }
+.btn-danger { @apply bg-bad text-white hover:opacity-90; }
+.btn-gold { @apply bg-gold-500 text-white hover:bg-gold-600; }
+
+.input {
+  @apply w-full rounded-xl border border-black/10 bg-white px-3.5 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-300;
+}
+.label {
+  @apply block text-xs font-semibold uppercase tracking-wide text-ink/50 mb-1.5;
+}
+
+.table-clean { @apply w-full text-sm border-collapse; }
+.table-clean th { @apply text-left text-xs font-semibold uppercase tracking-wide text-ink/50 py-2.5 px-3 border-b border-black/10; }
+.table-clean td { @apply py-3 px-3 border-b border-black/5; }
