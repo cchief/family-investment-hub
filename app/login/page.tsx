@@ -59,7 +59,7 @@ export default function LoginPage() {
             <span className="text-white font-display font-semibold text-lg">F</span>
           </div>
           <h1 className="font-display text-2xl font-semibold text-ink">PJKB Investment Hub</h1>
-          <p className="text-ink/50 text-sm mt-1 italic">Save consistently. Grow together.</p>
+          <p className="text-ink/50 text-sm mt-1 italic">Save consistentlly. Grow together.</p>
         </div>
 
         <Suspense fallback={<div className="card p-6 text-sm text-ink/50">Loading…</div>}>
