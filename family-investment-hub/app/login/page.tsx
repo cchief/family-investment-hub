@@ -45,11 +45,7 @@ function LoginForm() {
         </button>
       </form>
 
-      <div className="mt-6 card p-4 text-xs text-ink/50 leading-relaxed">
-        <p className="font-semibold text-ink/70 mb-1">Demo credentials (seed data)</p>
-        <p>Admin: admin@family.com / Admin123!</p>
-        <p>Member: sarah@family.com / Member123!</p>
-      </div>
+      
     </>
   );
 }
@@ -62,7 +58,7 @@ export default function LoginPage() {
           <div className="mx-auto mb-4 h-11 w-11 rounded-xl bg-brand-500 flex items-center justify-center">
             <span className="text-white font-display font-semibold text-lg">F</span>
           </div>
-          <h1 className="font-display text-2xl font-semibold text-ink">Family Investment Hub</h1>
+          <h1 className="font-display text-2xl font-semibold text-ink">PJKB Family Investment Hub</h1>
           <p className="text-ink/50 text-sm mt-1 italic">Save consistently. Grow together.</p>
         </div>
 
